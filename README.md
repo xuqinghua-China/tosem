@@ -17,3 +17,8 @@ Due to copyright issues, we can not include public dataset in this repository. T
 4. **PHM2015 Challenge.** Xiao W. A probabilistic machine learning approach to detect industrial plant faults: PHM15 data challenge. Proc Annu Conf Progn Heal Manag Soc PHM. 2015;(c):718–26. 
 5. **Gas Pipeline Dataset.** Morris TH, Thornton Z, Turnipseed I. Industrial Control System Simulation and Data Logging for Intrusion Detection System Research. Seventh Annu Southeast Cyber Secur Summit [Internet]. 2015;6. 
 # Train
+### Environment Installation
+Please install required python packages before you run any files. The command for installation is as follows.
+```bash
+pip install -r requirements.txt
+```
