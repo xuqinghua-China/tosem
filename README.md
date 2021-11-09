@@ -22,3 +22,36 @@ Please install required python packages before you run any files. The command fo
 ```bash
 pip install -r requirements.txt
 ```
+### Files in this directory
+- automata.py. This file contains code for building a digital twin model as a timed automata machine.
+- cl.py. This file contains code for curriculumn learning, including both Difficulty Measurer and Training Scheduler.
+- dataset.py. This file contains code for all the customized classes for each dataset.
+- layer.py. This file contains code for customized deep learning layers that are frequently used in model.py, including GCN layer and GAN layer.
+- model.py. This file contains code for building models, including ATTAIN, LATTICE and baselines.
+- preprocessing.py. This file contains code for preprocessing data, including acquiring labels and cleaning data.
+- settings.py. This files contains parameter settings that are used for training and models.
+- train.py. This file contains code for the main train loop.
+- utils.py. This file contains code for some utility functions, such as haming_distance and count_frequency.
+- validation.py. This file contains code for cross validation.
+- statistical testing. This file contains results of our experiment and R script to run Mann Whitney Testing on it.
+
+### How to train?
+1. First, you need to perform the preprocessing first with this command
+```bash
+python preprocessing.py
+```
+2. Second, you can do the cross validation to find optimal parameters (Optional, if you are trying to search the paramerters in other parameter spaces)
+```bash
+python validation.py
+```
+3. Third, you need to build the automata machine with this command
+```bash
+python automata.py
+```
+5. Finally, you can run the training process with this comman
+```bash
+python train.py
+```
+You will be able to see a progress bar similar to this if it is successfully run.
+<img width="954" alt="progress" src="https://user-images.githubusercontent.com/62027704/141015170-629f9bf8-a3e1-4501-a3d5-db289373edc4.png">
+
