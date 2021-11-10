@@ -23,17 +23,17 @@ Please install required python packages before you run any files. The command fo
 pip install -r requirements.txt
 ```
 ### Files in this directory
-- automata.py. This file contains code for building a digital twin model as a timed automata machine.
-- cl.py. This file contains code for curriculumn learning, including both Difficulty Measurer and Training Scheduler.
-- dataset.py. This file contains code for all the customized classes for each dataset.
-- layer.py. This file contains code for customized deep learning layers that are frequently used in model.py, including GCN layer and GAN layer.
-- model.py. This file contains code for building models, including ATTAIN, LATTICE and baselines.
-- preprocessing.py. This file contains code for preprocessing data, including acquiring labels and cleaning data.
-- settings.py. This files contains parameter settings that are used for training and models.
-- train.py. This file contains code for the main train loop.
-- utils.py. This file contains code for some utility functions, such as haming_distance and count_frequency.
-- validation.py. This file contains code for cross validation.
-- statistical testing. This file contains results of our experiment and R script to run Mann Whitney Testing on it.
+- **automata.py.** This file contains code for building a digital twin model as a timed automata machine.
+- **cl.py.** This file contains code for curriculumn learning, including both Difficulty Measurer and Training Scheduler.
+- **dataset.py.** This file contains code for all the customized classes for each dataset.
+- **layer.py.** This file contains code for customized deep learning layers that are frequently used in model.py, including GCN layer and GAN layer.
+- **model.py.** This file contains code for building models, including ATTAIN, LATTICE and baselines.
+- **preprocessing.py.** This file contains code for preprocessing data, including acquiring labels and cleaning data.
+- **settings.py.** This files contains parameter settings that are used for training and models.
+- **train.py.** This file contains code for the main train loop.
+- **utils.py.** This file contains code for some utility functions, such as haming_distance and count_frequency.
+- **validation.py.** This file contains code for cross validation.
+- **statistical testing.** This file contains results of our experiment and R script to run Mann Whitney Testing on it.
 
 ### How to train?
 1. First, you need to perform the preprocessing first with this command
