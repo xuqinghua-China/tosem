@@ -10,7 +10,7 @@ LATTICE follows the general CL framework , with the main idea of training models
 # Dataset
 ![dataset](https://user-images.githubusercontent.com/62027704/141009105-e7cbee65-c6f6-48e6-9ea6-6ff6c2596132.png)
 
-Due to copyright issues, we can not include public dataset in this repository. The references of the datasets are provided as follows.
+SWaT (SWaT.A2_Dec 2015), WADI (WADI.A2), and BATADAL datasets are provided by iTrust Lab in Singapore. These datasets are available upon request. ([link](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/)). PHM2015 Challenge dataset is provided in this [link](https://github.com/robot007/PHM15) and Gas Pipeline Data is provided in this [link](https://sites.google.com/a/uah.edu/tommy-morris-uah/ics-data-sets). The references of the datasets are provided as follows.
 1. **SWaT.** Mathur AP, Tippenhauer NO. SWaT: a water treatment testbed for research and training on ICS security. In: 2016 International Workshop on Cyber-physical Systems for Smart Water Networks (CySWater). IEEE; 2016. p. 31–6. 
 2. **WADI.** Ahmed CM, Palleti VR, Mathur AP. WADI: a water distribution testbed for research in the design of secure cyber physical systems. In: Proceedings of the 3rd International Workshop on Cyber-Physical Systems for Smart Water Networks. 2017. p. 25–8. 
 3. **BATADAL.** Taormina R, Galelli S, Tippenhauer NO, Salomons E, Ostfeld A, Eliades DG, et al. The Battle Of The Attack Detection Algorithms: Disclosing Cyber Attacks On Water Distribution Networks. J Water Resour Plan Manag. 2018 Aug;144(8):4018048. 
